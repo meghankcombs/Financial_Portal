@@ -31,6 +31,12 @@
                     <a href="@Url.Action("ForgotPassword", "Account")" class="btn btn-lg btn-info m-t-3" id="forgotPassBtn">Forgot Password?</a>
                 </div>
             }
+                <div class="p-x-1">
+                    <fieldset class="form-group form-group-lg">
+                        <label for="account-social-facebook">Third party logins</label>
+                        @Html.Partial("_ExternalLoginsListPartial", new ExternalLoginListViewModel { ReturnUrl = ViewBag.ReturnUrl })
+                    </fieldset>
+                </div>
             <!-- Spacer -->
             <div class="m-t-4 visible-xs visible-sm"></div>
         </div>

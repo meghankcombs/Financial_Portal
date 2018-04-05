@@ -204,6 +204,7 @@
     <Compile Include="Global.asax.cs">
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
+    <Compile Include="Helpers\EmailModel.cs" />
     <Compile Include="Helpers\HouseholdHelper.cs" />
     <Compile Include="Helpers\UserHelper.cs" />
     <Compile Include="Migrations\201804051437195_initial.cs" />
@@ -387,8 +388,11 @@
     <Content Include="fonts\glyphicons-halflings-regular.svg" />
     <Content Include="Global.asax" />
     <Content Include="Content\Site.css" />
+    <Content Include="MyImages\Accounts.jpg" />
+    <Content Include="MyImages\Budgets.jpg" />
     <Content Include="MyImages\cat--5-512-85909.png" />
     <Content Include="MyImages\house-xxl.png" />
+    <Content Include="MyImages\Transactions.jpg" />
     <Content Include="MyImages\user_default.png" />
     <Content Include="ApplicationInsights.config">
       <CopyToOutputDirectory>PreserveNewest</CopyToOutputDirectory>
@@ -401,6 +405,7 @@
     <Content Include="fonts\glyphicons-halflings-regular.woff" />
     <Content Include="fonts\glyphicons-halflings-regular.ttf" />
     <Content Include="fonts\glyphicons-halflings-regular.eot" />
+    <Content Include="private.config" />
     <None Include="Scripts\jquery-1.10.2.intellisense.js" />
     <Content Include="Scripts\bootstrap.js" />
     <Content Include="Scripts\bootstrap.min.js" />

@@ -191,6 +191,15 @@
 <!-- / Latest transactions -->
 
 @section scripts {
+    @if (TempData.ContainsKey("Message"))
+    {
+        <script>
+            $(function () {
+                swal('Thank you!', '@TempData["Message"]', 'success');
+            });
+        </script>
+    }
+
     @if (TempData.ContainsKey("MessageForgot"))
     {
         <script>

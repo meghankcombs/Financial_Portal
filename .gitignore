@@ -3,3 +3,4 @@ Web.config
 
 #Ignored .lock files
 *.lock
+/MKCFinancialPortal/private.config
