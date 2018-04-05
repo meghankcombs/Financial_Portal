@@ -1,0 +1,5 @@
+#Ignored config files
+Web.config
+
+#Ignored .lock files
+*.lock

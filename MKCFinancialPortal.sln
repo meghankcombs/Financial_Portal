@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.27428.2015
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MKCFinancialPortal", "MKCFinancialPortal\MKCFinancialPortal.csproj", "{9DEDA4B4-D426-45BC-9523-3170FD9651FC}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{9DEDA4B4-D426-45BC-9523-3170FD9651FC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9DEDA4B4-D426-45BC-9523-3170FD9651FC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9DEDA4B4-D426-45BC-9523-3170FD9651FC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9DEDA4B4-D426-45BC-9523-3170FD9651FC}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3B37ADF0-6416-4FC4-B9B5-D8852688D9FF}
+	EndGlobalSection
+EndGlobal
