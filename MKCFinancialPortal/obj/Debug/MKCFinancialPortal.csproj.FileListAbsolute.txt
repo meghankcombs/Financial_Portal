@@ -114,9 +114,9 @@ C:\Users\meghancombs\source\repos\MKCFinancialPortal\MKCFinancialPortal\bin\Micr
 C:\Users\meghancombs\source\repos\MKCFinancialPortal\MKCFinancialPortal\bin\Microsoft.AI.WindowsServer.xml
 C:\Users\meghancombs\source\repos\MKCFinancialPortal\MKCFinancialPortal\bin\Microsoft.AI.Web.xml
 C:\Users\meghancombs\source\repos\MKCFinancialPortal\MKCFinancialPortal\obj\Debug\MKCFinancialPortal.csprojResolveAssemblyReference.cache
+C:\Users\meghancombs\source\repos\MKCFinancialPortal\MKCFinancialPortal\obj\Debug\MKCFinancialPortal.Migrations.initial.resources
+C:\Users\meghancombs\source\repos\MKCFinancialPortal\MKCFinancialPortal\obj\Debug\MKCFinancialPortal.csproj.GenerateResource.cache
 C:\Users\meghancombs\source\repos\MKCFinancialPortal\MKCFinancialPortal\obj\Debug\MKCFinancialPortal.csproj.CoreCompileInputs.cache
 C:\Users\meghancombs\source\repos\MKCFinancialPortal\MKCFinancialPortal\obj\Debug\MKCFinancialPortal.csproj.CopyComplete
 C:\Users\meghancombs\source\repos\MKCFinancialPortal\MKCFinancialPortal\obj\Debug\MKCFinancialPortal.dll
 C:\Users\meghancombs\source\repos\MKCFinancialPortal\MKCFinancialPortal\obj\Debug\MKCFinancialPortal.pdb
-C:\Users\meghancombs\source\repos\MKCFinancialPortal\MKCFinancialPortal\obj\Debug\MKCFinancialPortal.Migrations.initial.resources
-C:\Users\meghancombs\source\repos\MKCFinancialPortal\MKCFinancialPortal\obj\Debug\MKCFinancialPortal.csproj.GenerateResource.cache

@@ -1,4 +1,5 @@
 ﻿using MKCFinancialPortal.Helpers;
+using MKCFinancialPortal.Models;
 using System;
 using System.Collections.Generic;
 using System.Configuration;
@@ -13,9 +14,20 @@ namespace MKCFinancialPortal.Controllers
 {
     public class HomeController : Controller
     {
+        private ApplicationDbContext db = new ApplicationDbContext();
+
         public ActionResult Index()
         {
-            return View();
+            var IndexData = new HomeViewModel();
+
+            //Shows all data in datatables; can go to Household details page for specific data
+            IndexData.Households = db.Households.ToList();
+            IndexData.AllUsers = db.Users.ToList();
+            IndexData.Accounts = db.PersonalAccounts.ToList();
+            IndexData.Budgets = db.Budgets.ToList();
+            IndexData.Transactions = db.Transactions.OrderByDescending(t => t.Date).Take(50).ToList();
+
+            return View(IndexData);
         }
 
         public ActionResult About()

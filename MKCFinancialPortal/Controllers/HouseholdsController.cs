@@ -27,7 +27,15 @@ namespace MKCFinancialPortal.Controllers
             {
                 return new HttpStatusCodeResult(HttpStatusCode.BadRequest);
             }
-            Household household = db.Households.Find(id);
+
+            Household household = db.Households.Where(h => h.Id == id)
+                                    .Include(h => h.Budgets)
+                                    .Include(h => h.PersonalAccounts)
+                                    .Include(h => h.Users)
+                                    .Include(h => h.Invites)
+                                    .Include(h => h.Categories)
+                                    .FirstOrDefault();
+
             if (household == null)
             {
                 return HttpNotFound();
@@ -42,8 +50,6 @@ namespace MKCFinancialPortal.Controllers
         }
 
         // POST: Households/Create
-        // To protect from overposting attacks, please enable the specific properties you want to bind to, for 
-        // more details see https://go.microsoft.com/fwlink/?LinkId=317598.
         [HttpPost]
         [ValidateAntiForgeryToken]
         public ActionResult Create([Bind(Include = "Id,Name")] Household household)
